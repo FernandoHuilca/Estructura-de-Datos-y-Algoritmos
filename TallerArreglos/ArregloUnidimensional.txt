@@ -1,0 +1,58 @@
+//Supongamos que se deben leer los elementos de un
+//arreglo A con índices comprendidos entre el 1 y el
+//30. Cuál es el algoritmo que esta estructura de
+//datos necesita para especificar dicha operación
+
+AlgoritmoDeEscritura()
+Inicio
+    ArregloEscritura = Arreglo[1 ... 30] de Entero
+    Repetir i desde 1 hasta 30
+        Escribir ArregloEscritura[i]
+    Fin Repetir
+Fin AlgoritmoDeEscritura()
+
+
+AlgoritmoDeAsignacion()
+Inicio
+    ArregloAsignacion = Arreglo[1 ... 30] de Entero
+    Repetir i desde 1 hasta 30
+        ArregloAsignacion[i] <- 69
+    Fin Repetir
+Fin AlgoritmoDeDesignacion()
+
+
+AlgoritmoDeLectura()
+Inicio
+    ArregloLectura = Arreglo[1 ... 30] de Entero
+    Repetir i desde 1 hasta 30
+        Leer ArregloLectura[i]
+    Fin Repetir
+Fin AlgoritmoDeLectura()
+
+
+AlgoritmoDeInsercion()
+Inicio  
+    ArregloInsercion = Arreglo [1 ... 30] de Entero
+    elementoNuevo <- 100
+    posiciónDeterminada <- 4 
+    ArregloInsercion[posiciónDeterminada] <- elementoNuevo
+Fin AlgoritmoDeInsercion()
+
+
+
+AlgoritmoDeEliminacion()
+Inicio
+    ArregloEliminacion = Arreglo [1 ... 30] de Entero
+    Escribir "numero a eliminar"
+    Leer (numero)
+    Repetir i desde 1 hasta 30
+        Leer ArregloEliminacion[i]
+        Si (ArregloEliminacion[i] = numero)
+            ArregloEliminacion[i] <- null
+        Fin Si
+    Fin Repetir
+Fin AlgoritmoDeEliminacion()
+
+
+
+    

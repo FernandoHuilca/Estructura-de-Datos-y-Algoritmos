@@ -1,0 +1,57 @@
+AlgoritmoDeEscritura()
+Inicio
+    ArregloLectura = Arreglo[1 ... 5,1 ... 5] de Caracter
+    Repetir i desde 1 hasta 5
+        Repetir j desde 1 hasta 5
+            Escribir ArregloEscribir[i][j]
+        Fin Repetir
+    Fin Repetir
+Fin AlgoritmoDeEscritura()
+
+
+AlgoritmoDeAsignacion()
+Inicio
+    ArregloAsignacion = Arreglo[1 ... 5, 1 ... 5] de Caracter
+    Repetir i desde 1 hasta 5
+        Repetir j desde 1 hasta 5
+            ArregloEscribir[i][j] <- 'a'
+        Fin Repetir
+    Fin Repetir
+Fin AlgoritmoDeDesignacion()
+
+
+AlgoritmoDeLectura()
+Inicio
+    ArregloLectura = Arreglo[1 ... 5, 1 ... 5] de Caracter
+    Repetir i desde 1 hasta 5
+        Repetir j desde 1 hasta 5
+            Leer ArregloLectura[i][j]
+        Fin Repetir
+    Fin Repetir
+Fin AlgoritmoDeLectura()
+
+
+AlgoritmoDeInsercion()
+Inicio  
+    ArregloInsercion = Arreglo [1 ... 5] de Caracter
+    elementoNuevo <- 100
+    posiciónFila <- 4 
+    posicionColumna <- 2
+    ArregloInsercion[posiciónFila][posicionColumna] <- elementoNuevo
+Fin AlgoritmoDeInsercion()
+
+
+AlgoritmoDeEliminacion()
+Inicio
+    ArregloEliminacion = Arreglo [1 ... 5, 1 ... 5] de Entero
+    Escribir "numero a eliminar"
+    Leer (numero)
+    Repetir i desde 1 hasta 5
+        Repetir j desde 1 hasta 5
+            Leer ArregloEliminacion[i][j]
+            Si (ArregloEliminacion[i][j] = numero)
+                ArregloEliminacion[i][j] <- null
+            Fin Si
+        Fin Repetir
+    Fin Repetir
+Fin AlgoritmoDeEliminacion()
